@@ -1,4 +1,34 @@
+@font-face {
+    font-family: RobotoSpecial;
+    src: url('RobotoSlab-Regular.ttf');
+}
+
+body {
+    padding: auto;
+    margin: auto;
+}
 nav {
     background-color: wheat;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .logo-area {
+        background-image: url('../images/logo.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 150px;
+    }
+    ul {
+        font-family: 'RobotoSpecial';
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    li {
+            padding: 20px 50px;
+            font-size: larger;
+        }
+    }
+
 }
+

@@ -1,7 +1,45 @@
+@font-face {
+  font-family: RobotoSpecial;
+  src: url("RobotoSlab-Regular.ttf");
+}
+
+body {
+  padding: auto;
+  margin: auto;
+}
+
 nav {
   background-color: wheat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+nav .logo-area {
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+}
+
+nav ul {
+  font-family: 'RobotoSpecial';
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  padding: 20px 50px;
+  font-size: larger;
 }
 /*# sourceMappingURL=home.css.map */
