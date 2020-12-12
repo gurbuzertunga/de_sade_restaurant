@@ -1,5 +1,5 @@
 export default function homePage() {
-    const page = document.getElementById('container');
+    const page = document.getElementById('content');
     const homeArea = document.createElement('main');
     
     const mainSlogan = document.createElement('h1');
