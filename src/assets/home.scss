@@ -29,6 +29,31 @@ nav {
             font-size: larger;
         }
     }
+}
 
+main {
+    background-image: url('../images/homebackground.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+       padding: 100px 50px 100px 50px;
+       font-family: 'RobotoSpecial';
+       background-color: rgba(190, 220, 250, 0.35);
+       color: #23120b;
+    }
+}
+
+footer {
+    background-color: #c5a880;
+    height: 50px;
+    display: flex;
+    p {
+        margin: 15px auto;
+        color: #23120b;
+    }
 }
 

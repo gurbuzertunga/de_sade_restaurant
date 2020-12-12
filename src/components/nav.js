@@ -1,3 +1,6 @@
+import homePage from './home';
+import menuPage from './menu';
+
 export default function navBarArea() {
     const page = document.getElementById('container');
     const navBar = document.createElement('nav');
@@ -16,7 +19,11 @@ export default function navBarArea() {
     menu.appendChild(homeLink);
     menu.appendChild(menuLink);
     menu.appendChild(contactLink);
+
     homeLink.textContent = 'HOME';
     menuLink.textContent = 'MENU';
     contactLink.textContent = 'CONTACT';
+
+    homeLink.addEventListener('click', homePage());
+    menuLink.addEventListener('click', menuPage());
 }
