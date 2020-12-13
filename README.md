@@ -9,7 +9,7 @@
 
 - Users can visit the home, menu and contact pages
 
-## This web app is live, you can check it here: [Live demo](https://mahmoud717.github.io/JS-restaurant/)
+## This web app is live, you can check it here: [Live demo](https://competent-goldberg-6da00c.netlify.app/)
 
 
 ## Built With
