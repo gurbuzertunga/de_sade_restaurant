@@ -60,6 +60,13 @@ main {
           justify-content: center;
 }
 
+main .contacts-container {
+  padding: 100px 50px 100px 50px;
+  font-family: 'RobotoSpecial';
+  background-color: rgba(190, 220, 250, 0.35);
+  color: #23120b;
+}
+
 main h1 {
   padding: 100px 50px 100px 50px;
   font-family: 'RobotoSpecial';

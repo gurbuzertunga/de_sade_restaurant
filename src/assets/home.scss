@@ -40,12 +40,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    h1 {
+    .contacts-container{
        padding: 100px 50px 100px 50px;
        font-family: 'RobotoSpecial';
        background-color: rgba(190, 220, 250, 0.35);
        color: #23120b;
     }
+
+    h1 {
+        padding: 100px 50px 100px 50px;
+        font-family: 'RobotoSpecial';
+        background-color: rgba(190, 220, 250, 0.35);
+        color: #23120b;
+     }
 
     .container{
         width:100%;

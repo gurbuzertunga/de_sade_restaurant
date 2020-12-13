@@ -2,6 +2,7 @@ import beef_carpaccio from '../images/beef_carpaccio.jpg'
 import smoked_beef from '../images/smoked_beef.jpg'
 import new_york_strip from '../images/new_york_strip.jpeg'
 import beef_tenderloin from '../images/tenderloin.jpg'
+import footer from './footer';
 
 
 
