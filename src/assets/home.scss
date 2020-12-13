@@ -8,7 +8,7 @@ body {
     margin: auto;
 }
 nav {
-    background-color: wheat;
+    background-color: #23120b;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -27,6 +27,7 @@ nav {
     li {
             padding: 20px 50px;
             font-size: larger;
+            color: #d35d6e;
         }
     }
 }
@@ -55,8 +56,11 @@ main {
         border: 2px solid black;
         margin: 0 15px;
         h4 {
+            padding: 20px;
+            background-color: rgba(190, 220, 250, 0.35);
             text-align: center;
             bottom: 25px;
+            color: black;
         }
     }
 
@@ -76,12 +80,12 @@ main {
 }
 
 footer {
-    background-color: #c5a880;
+    background-color: #23120b;
     height: 50px;
     display: flex;
     p {
         margin: 15px auto;
-        color: #23120b;
+        color: #d35d6e;
     }
 }
 

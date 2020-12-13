@@ -1,0 +1,9 @@
+export default function contactPage() {
+    const page = document.getElementById('content');
+    const homeArea = document.createElement('main');
+    
+    const mainSlogan = document.createElement('h1');
+    mainSlogan.textContent = 'Food so great that you will sell your family heirlooms...'
+    page.appendChild(homeArea);
+    homeArea.appendChild(mainSlogan)
+}

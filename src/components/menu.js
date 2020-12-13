@@ -1,3 +1,10 @@
+import beef_carpaccio from '../images/beef_carpaccio.jpg'
+import smoked_beef from '../images/smoked_beef.jpg'
+import new_york_strip from '../images/new_york_strip.jpeg'
+import beef_tenderloin from '../images/tenderloin.jpg'
+
+
+
 export default function menuArea() {
     const page = document.getElementById('content');
     const menuArea = document.createElement('main');
@@ -5,25 +12,25 @@ export default function menuArea() {
 
     let menuItems = [{
         name:'Beef Carpaccio',
-        img: 'images/beef_carpaccio.jpg'
+        img: beef_carpaccio,
     }, 
     {
         name:'Smoked Beef',
-        img: 'images/smoked_beef.jpg'
+        img: smoked_beef,
     },
     {
         name:'New York Strip',
-        img: 'images/new_york_strip.jpeg'
+        img: new_york_strip,
     },
     {
         name:'Beef Tenderloin',
-        img: 'images/tenderloin.jpg'
+        img: beef_tenderloin,
     }]
 
 
     menuItems.forEach(function(el) {
         const cardContainer = document.createElement('div');
-        cardContainer.setAttribute('style', `background-image: url('${el.img}'); background-size: auto; background-repeat: no-repeat;`)
+        cardContainer.setAttribute('style', `background-image: url('${el.img}'); background-size: cover; background-repeat: no-repeat;`)
         const cardText = document.createElement('h4');
      
         cardContainer.classList.add('container');
